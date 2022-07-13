@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         marginLeft: 20,
         marginRight: 20,
-        marginTop: 20,
+        marginTop: 75,
     },
 
     homeTitle: {
