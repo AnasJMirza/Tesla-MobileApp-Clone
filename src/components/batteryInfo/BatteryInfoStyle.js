@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
 
     parkStateText: {
         color: 'white',
-        fontSize: 16,
+        fontSize: 18,
         fontWeight: 'bold',
     }
 

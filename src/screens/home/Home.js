@@ -5,11 +5,13 @@ import React from 'react';
 import Header from '../../components/header/Header';
 import styles from './HomeStyles';
 import BatteryInfo from '../../components/batteryInfo/BatteryInfo';
+import Menu from '../../components/menu/Menu';
 
 const Home = () => {
   // StatusBar.setHidden(false)
   // StatusBar.setBackgroundColor('black');
   FullScreenChz.enable();
+// FullScreenChz.disable()
   return (
     <View style={styles.homeContainer}>
 
@@ -24,6 +26,10 @@ const Home = () => {
 
       <View>
         <BatteryInfo />
+      </View>
+
+      <View>
+        <Menu />
       </View>
 
     </View>
