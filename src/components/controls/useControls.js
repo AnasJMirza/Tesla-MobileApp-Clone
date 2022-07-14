@@ -1,7 +1,7 @@
 import {View, Text} from 'react-native';
 import React, { useState } from 'react';
 
-const useMenu = () => {
+const useControls = () => {
   const [lock, setLock] = useState(false);
 
   const stateHandler = () => {
@@ -11,10 +11,17 @@ const useMenu = () => {
       setLock(true);
     }
   };
+
+  const renderItem = (item) => {
+    <View>
+      <Text style={{color: 'white'}}>{ item.title }</Text>
+    </View>
+  }
   return {
     stateHandler,
-    lock
+    lock,
+    renderItem
   };
 };
 
-export default useMenu;
+export default useControls;

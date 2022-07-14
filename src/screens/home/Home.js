@@ -5,7 +5,7 @@ import React from 'react';
 import Header from '../../components/header/Header';
 import styles from './HomeStyles';
 import BatteryInfo from '../../components/batteryInfo/BatteryInfo';
-import Menu from '../../components/menu/Menu';
+import Controls from '../../components/controls/Controls';
 
 const Home = () => {
   // StatusBar.setHidden(false)
@@ -29,7 +29,7 @@ const Home = () => {
       </View>
 
       <View>
-        <Menu />
+        <Controls />
       </View>
 
     </View>

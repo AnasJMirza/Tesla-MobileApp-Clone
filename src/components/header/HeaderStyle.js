@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
 
     homeTitle: {
         color: "white",
-        fontSize: 16,
+        fontSize: 20,
         fontWeight: 'bold',
     },
 
