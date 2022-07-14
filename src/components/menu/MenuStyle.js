@@ -5,11 +5,11 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: 150,
+        marginTop: 155,
     },
 
     controlsIconWrapper: {
-        borderWidth: 1,
+        borderWidth: 2,
         borderColor: 'white',
         borderRadius: 50,
         padding: 18,
